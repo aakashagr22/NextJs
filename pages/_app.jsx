@@ -1,12 +1,12 @@
-import React from 'react'
-import "../src/app/globals.css";
 
-function MyApp({ Component, pageProps }) {
-  return (<React.StrictMode>
-   <Component {...pageProps} />
-  </React.StrictMode>)
+'use client'
+import '../src/app/globals.css'
+
+export default function MyApp({ Component, pageProps }) {
+  return (
+    <Component {...pageProps} />
+  )
 }
 
-export default MyApp
 
 
