@@ -1,6 +1,10 @@
-// import "@/app/globals.css"
+import React from 'react'
 import "../src/app/globals.css";
 
-export default function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
+
+export default MyApp
+
+
