@@ -1,6 +1,5 @@
 "use client"
 import Image from "next/image"
-import profilePicture from "./public/apollo.png"
 import { useState } from "react"
 import { Link } from "react-router-dom"
 import { FaSearch, FaShoppingCart, FaUser, FaBars } from "react-icons/fa"

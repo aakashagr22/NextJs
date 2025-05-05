@@ -1,4 +1,5 @@
 import { FaStar, FaVideo, FaCalendarAlt, FaMapMarkerAlt } from "react-icons/fa";
+import Image from "next/image";
 import "./DoctorCard.css";
 
 const DoctorCard = ({ doctor }) => {
@@ -15,7 +16,7 @@ const DoctorCard = ({ doctor }) => {
       <div className="doctor-card-content">
         {/* Doctor Image */}
         <div className="doctor-image-container">
-          <img
+          <Image
             src={doctor.imageUrl || profilePicture}
             alt={doctor.name}
             className="doctor-image"
